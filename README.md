@@ -1,28 +1,89 @@
-# Movie Recommendation System 🎬
+# 🎬 Movie Recommendation System (Web App)
 
-This project implements a content-based movie recommendation system using Python and machine learning techniques.
+A **content-based movie recommendation web application** built using **Python, Machine Learning, and Streamlit**.  
+The app recommends movies similar to a selected title by analyzing movie metadata such as **overview, genres, and keywords**.
 
-## Tools & Technologies
-- Python
-- Pandas, NumPy
-- Scikit-learn
-- Jupyter Notebook
+---
 
-## Project Overview
-The system analyzes movie metadata such as overview, genres, and keywords to recommend similar movies based on textual similarity.
+## 🌐 Live Demo
+👉 **Web App:** https://<your-streamlit-app-link>
 
-## How It Works
-- Data preprocessing and feature extraction
-- Text vectorization using CountVectorizer
-- Similarity calculation using cosine similarity
-- Recommends movies based on user input
+> (Link will be updated after deployment)
 
-## How to Run
-1. Open the Jupyter Notebook
-2. Run all cells
-3. Call the recommendation function with a movie title
+---
 
-Example:
-```python
-recommend("Avatar")
+##✨ Features
 
+Interactive movie recommendations
+
+Fast similarity computation
+
+Clean Streamlit UI
+
+Ready for cloud deployment
+
+---
+
+## 📌 Project Overview
+This project uses **Natural Language Processing (NLP)** techniques to recommend movies based on content similarity.  
+Textual features are transformed into numerical vectors and compared using cosine similarity.
+
+---
+
+## ⚙️ How It Works
+1. Movie metadata is combined (overview, genres, keywords)  
+2. Text vectorization using **CountVectorizer**  
+3. **Cosine similarity** is used to measure movie similarity  
+4. Results are displayed via an interactive Streamlit interface  
+
+---
+
+## 🛠️ Tools & Technologies
+- Python  
+- Pandas, NumPy  
+- Scikit-learn  
+- Streamlit  
+- TMDb Dataset  
+
+---
+
+##📂 Project Structure
+├── app.py
+├── requirements.txt
+├── dataset/
+│   ├── tmdb_5000_movies.csv
+│   └── tmdb_5000_credits.csv
+├── README.md
+
+---
+
+
+## 🚀 How to Run Locally
+
+### Clone the repository
+```bash
+git clone https://github.com/<Dishac15>/movie-recommendation-system.git
+cd movie-recommendation-system
+
+###Install dependencies
+pip install -r requirements.txt
+
+###Run the app
+streamlit run app.py
+
+
+##🔮 Future Enhancements
+
+User-based recommendations
+
+Movie posters & trailers
+
+Advanced filtering
+
+Custom UI theme
+
+
+##👩‍💻 Author
+
+Disha
+Computer Science Engineering Student
