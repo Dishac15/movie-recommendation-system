@@ -1,4 +1,4 @@
-# Movie Recommendation System (Updated)
+# Movie Recommendation System
 
 ## Overview
 This project implements a **content-based movie recommendation system** using natural language processing techniques. It recommends movies similar to a given movie based on textual features like plot overviews, genres, and keywords. The system leverages TF-IDF vectorization and cosine similarity to compute similarity scores between movies.
